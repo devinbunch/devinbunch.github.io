@@ -1,9 +1,9 @@
 # main links
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
+  - title: "R Projects"
+    url: https://devinbunch.github.io/devinbunch/RProjects/
+  - title: "About"
+    url: https://devinbunch.github.io/devinbunch/about/
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"
