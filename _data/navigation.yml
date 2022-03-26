@@ -1,12 +1,14 @@
 # main links
 main:
-  - title: "R Projects"
-    url: /RProjects/
   - title: "About"
-    url: /about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+    url: /
+  - title: "Data Analytics Portfolio"
+    url: /RProjects/
+  - title: "Resume"
+    url: https://devinbunch.github.io/Resume/devinbunch.pdf
+  - title: "Miscellaneous"
+    url: /misc/
+  - title: "Software"
+    url: /Software/
+  - title: "Blog"
+    url: /blog/
