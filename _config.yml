@@ -22,8 +22,8 @@ subtitle                 : M.S. Economics 2021, B.S. of Mathematics 2020 | Unive
 name                     : "Devin Bunch"
 description              : "Data Analytics Portfolio"
 url                      : # the base hostname & protocol for your site e.g. "https://devinbunch.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+baseurl                  : # the subpath of your site, e.g. "/portfolio"
+repository               : # GitHub username/repo-name e.g. "devinbunch/devinbunch.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
@@ -102,11 +102,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
-  email            :
+  name             : "Devin Bunch"
+  avatar           : # path of avatar image, e.g. "/assets/images/profile_pic.png"
+  bio              : "I am ..."
+  location         : "Eugene, Oregon, USA"
+  email            :  "devinbunch98@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
