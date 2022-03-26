@@ -21,7 +21,7 @@ locale                   : "en-US"
 title: Devin Ashley Bunch
 title_separator          : "|"
 subtitle                 : M.S. Economics 2021, B.S. of Mathematics 2020 | University of Oregon
-name                     : "Data Analytics Portfolio"
+name                     : "Devin Ashley Bunch Data Analytics Portfolio"
 description              :  "Devin Ashley Bunch's website that hosts her Data Analytics Portfolio"
 url                      : # the base hostname & protocol for your site e.g. "https://devinbunch.github.io"
 #i can try to update my website name to "devinbunch.com" after I set up the structure
@@ -101,7 +101,7 @@ author:
   avatar : "/assets/images/profile_pic.png"
   bio    : 
     Data Analyst at Lithia Motors & Driveway.
-    Interested in environmental economics & data science.
+    Interested in Big data & mathematics.
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
@@ -159,3 +159,4 @@ analytics:
     anonymize_ip: false # default
 
 
+exclude: ['*.Rmd']
