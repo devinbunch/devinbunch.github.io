@@ -16,16 +16,16 @@ minimal_mistakes_skin    : "dirt" # "air", "aqua", "contrast", "dark", "dirt", "
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Data Analytics Portfolio"
+title                    : "Devin Bunch"
 title_separator          : "|"
 subtitle                 : M.S. Economics 2021, B.S. of Mathematics 2020 | University of Oregon
-name                     : "Devin Bunch"
-description              : "Data Analytics Portfolio"
+name                     : "Data Analytics Portfolio"
+description              : "Devin Ashley Bunch's website that hosts her Data Analytics Portfolio"
 url                      : # the base hostname & protocol for your site e.g. "https://devinbunch.github.io"
 baseurl                  : # the subpath of your site, e.g. "/portfolio"
 repository               : # GitHub username/repo-name e.g. "devinbunch/devinbunch.github.io"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/profile_pic.png"
+teaser                   : # path of fallback teaser image, e.g. "/assets/images/profile_pic.png"
+logo                     : # path of logo image to display in the masthead,
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
