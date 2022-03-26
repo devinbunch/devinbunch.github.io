@@ -1,9 +1,9 @@
 # main links
 main:
   - title: "R Projects"
-    url: https://devinbunch.github.io/devinbunch/RProjects/
+    url: /RProjects/
   - title: "About"
-    url: https://devinbunch.github.io/devinbunch/about/
+    url: /about/
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"
