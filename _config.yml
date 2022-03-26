@@ -21,7 +21,7 @@ title_separator          : "|"
 subtitle                 : M.S. Economics 2021, B.S. of Mathematics 2020 | University of Oregon
 name                     : "Devin Bunch"
 description              : "Data Analytics Portfolio"
-url                      : # the base hostname & protocol for your site e.g. "https://devinbunch.com"
+url                      : # the base hostname & protocol for your site e.g. "https://devinbunch.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
