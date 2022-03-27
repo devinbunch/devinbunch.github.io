@@ -65,9 +65,7 @@ plugins:
 author:
   name   : "Devin Bunch"
   avatar : "/assets/images/profile_pic.png"
-  bio    :
-    Data Analyst at Lithia Motors & Driveway.
-    Interested in Big data, statistics, and coding
+  bio    : "Data Analyst at Lithia Motors & Driveway. Interested in Big data, statistics, and coding"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
