@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: Devin Ashley Bunch
 subtitle: "M.S. Econ 2021, B.S. Mathematics 2020 | University of Oregon"
-url: https://devinbunch.com
+url: https://devinbunch.github.io
 ## To build the website locally, comment out the previous line and run
 ## in terminal: 'bundle ex jekyll serve'. The website will be hosted at
 ## 'localhost:4000'.
