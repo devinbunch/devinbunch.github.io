@@ -14,6 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Devin Ashley Bunch
+subtitle: "M.S. Econ 2021, B.S. Mathematics 2020 | University of Oregon"
 url: https://devinbunch.github.io
 ## To build the website locally, comment out the previous line and run
 ## in terminal: 'bundle ex jekyll serve'. The website will be hosted at
@@ -64,8 +65,7 @@ plugins:
 author:
   name   : "Devin Bunch"
   avatar : "/assets/images/profile_pic.png"
-  bio    : 
-    M.S. Econ 2021, B.S. Mathematics 2020 | University of Oregon
+  bio    :
     Data Analyst at Lithia Motors & Driveway.
     Interested in Big data, statistics, and coding
   links:
@@ -79,7 +79,7 @@ author:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/devinbunch"
     - label: "LinkedIn"
-      icon: "fab fa-fw fa-github"
+      icon: "fa-linkedin-square"
       url: "https://www.linkedin.com/in/devin-ashley-bunch-9484a4219/"
 
       
@@ -88,7 +88,9 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/devinbunch"
-
+   - label: "LinkedIn"
+      icon: "fa-linkedin-square"
+      url: "https://www.linkedin.com/in/devin-ashley-bunch-9484a4219/"
 defaults:
   # _posts
   - scope:
