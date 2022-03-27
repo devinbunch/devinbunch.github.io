@@ -1,11 +1,15 @@
 ---
 permalink: /
-title: "Welcome"
+title: "Hello World"
 author_profile: true
 classes: wide
 header:
   image: /assets/images/rallarvegen-crop2.jpg
 ---
+
+
+### name <- "devin_bunch"
+
 
 I am an assistant professor of economics at the University of Oregon. My research fields are environmental and resource economics, which means that I study the interactions between human and natural systems. Broadly speaking, I am interested in questions like: 
 

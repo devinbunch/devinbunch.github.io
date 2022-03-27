@@ -1,13 +1,13 @@
 # main links
 main:
   - title: "About"
-    url: /about/
+    url: /bio/
   - title: "Data Analytics Portfolio"
     url: /RProjects/
   - title: "Resume"
     url: https://devinbunch.github.io/Resume/devinbunch.pdf
   - title: "Miscellaneous"
-    url: /misc/
+    url: /
   - title: "Software"
     url: /Software/
   - title: "Blog"
