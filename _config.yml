@@ -1,92 +1,57 @@
 # Welcome to Jekyll!
 #
-# This config file is meant for settings that affect your entire site, values
-# which you are expected to set up once and rarely need to edit after that.
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
 # For technical reasons, this file is *NOT* reloaded automatically when you use
-# `jekyll serve`. If you change this file, please restart the server process.
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
 # These are used to personalize your new site. If you look in the HTML files,
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-
-
-# Theme Settings
-
-minimal_mistakes_skin    : "dirt" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
-
-# Site Settings
-locale                   : "en-US"
 title: Devin Ashley Bunch
-title_separator          : "|"
-subtitle                 : M.S. Economics 2021, B.S. of Mathematics 2020 | University of Oregon
-name                     : "Devin Ashley Bunch"
-description              :  "Devin Ashley Bunch's website that hosts her Data Analytics Portfolio"
-url                      : # the base hostname & protocol for your site e.g. "https://devinbunch.github.io"
-#i can try to update my website name to "devinbunch.com" after I set up the structure
+url: https://devinbunch.github.io
+## To build the website locally, comment out the previous line and run
+## in terminal: 'bundle ex jekyll serve'. The website will be hosted at
+## 'localhost:4000'.
+
+# repository: grantmcdermott/grantmcdermott.github.io
 github: [metadata]
 email: devinbunch98@gmail.com
+description: >- # this means to ignore newlines in the text below
+  Devin Bunch's Data Analytics Portfolio hosted on Github.
+github_username: devinbunch
+minimal_mistakes_skin: "default" #"default" "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
 search: true
 
-
-# Reading Files
-include:
-  - .htaccess
-  - _pages
-exclude:
-  - "*.sublime-project"
-  - "*.sublime-workspace"
-  - vendor
-  - .asset-cache
-  - .bundle
-  - .jekyll-assets-cache
-  - .sass-cache
-  - assets/js/plugins
-  - assets/js/_main.js
-  - assets/js/vendor
-  - Capfile
-  - CHANGELOG
-  - config
-  - Gemfile
-  - Gruntfile.js
-  - gulpfile.js
-  - LICENSE
-  - log
-  - node_modules
-  - package.json
-  - package-lock.json
-  - Rakefile
-  - README
-  - tmp
-  - /docs # ignore Minimal Mistakes /docs
-  - /test # ignore Minimal Mistakes /test
-keep_files:
-  - .git
-  - .svn
-encoding: "utf-8"
-markdown_ext: "markdown,mkdown,mkdn,mkd,md"
-
-
-# Conversion
+# Build settings
 markdown: kramdown
-highlighter: rouge
-lsi: false
-excerpt_separator: "\n\n"
-incremental: false
+remote_theme: mmistakes/minimal-mistakes
+# Outputting
+permalink: /:categories/:title/
+paginate: 5 # amount of posts to show
+paginate_path: /blog/page:num
+timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
+include:
+  - _pages
 
-# Markdown Processing
-kramdown:
-  input: GFM
-  hard_wrap: false
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  smart_quotes: lsquo,rsquo,ldquo,rdquo
-  enable_coderay: false
-  
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+
 # Plugins (previously gems:)
 plugins:
   - jekyll-paginate
@@ -95,13 +60,14 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
-  
+
 author:
   name   : "Devin Bunch"
   avatar : "/assets/images/profile_pic.png"
   bio    : 
+    M.S. Econ 2021, B.S. Mathematics 2020 | University of Oregon
     Data Analyst at Lithia Motors & Driveway.
-    Interested in Big data & mathematics.
+    Interested in Big data, statistics, and coding
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
@@ -109,16 +75,16 @@ author:
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
       url: "mailto:devinbunch98@gmail.com"
-    
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/devinbunch"
-  
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-github"
+      url: "https://www.linkedin.com/in/devin-ashley-bunch-9484a4219/"
+
+      
 footer:
   links:
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/devin-ashley-bunch-9484a4219/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/devinbunch"
@@ -158,5 +124,18 @@ analytics:
     tracking_id: "UA-76482472-1"
     anonymize_ip: false # default
 
+# Comments
+# https://mmistakes.github.io/minimal-mistakes/docs/configuration/#disqus
+comments:
+  provider: "disqus"
+  disqus:
+    shortname: "devinbunch-blog"
 
-exclude: ['*.Rmd']
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /blog/tag-archive/
+
+exclude: ['*.Rmd'] #this line gets rid of duplicate files in the folders when I knit
