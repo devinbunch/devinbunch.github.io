@@ -124,13 +124,15 @@ analytics:
     tracking_id: "UA-76482472-1"
     anonymize_ip: false # default
 
+
+##IDK about this comment code. I'm not sure if I need A disqus account to create a comment section or not? I can play with that later
 # Comments
 # https://mmistakes.github.io/minimal-mistakes/docs/configuration/#disqus
 comments:
   provider: "disqus"
   disqus:
     shortname: "devinbunch-blog"
-
+##what does this code do?
 category_archive:
   type: liquid
   path: /categories/
