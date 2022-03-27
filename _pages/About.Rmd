@@ -1,12 +1,14 @@
 ---
 title: "About"
-author: "Devin Bunch"
-date: "3/26/2022"
-output: html_document
+permalink: /about/
+header:
+  image: 
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## Devin Bunch
+#### (name <- "Devin_Bunch")
+
+Highly driven to complete all required duties and responsibilities, I demonstrate a high aptitude to learn in a fast-paced environment and place a focus on customer service. Having earned a Master’s in Economics and Bachelors in Mathematics, I am skilled in statistical inference, machine learning, data visualization, API integration, and data mining using R, Python, and SQL. I have strong analytical, data modeling and reporting skills with the ability to multitask, stay organized, and prioritize deadlines in a continually evolving environment. Advanced knowledge of statistical theory, hypothesis testing, win/loss, and quality analysis.
